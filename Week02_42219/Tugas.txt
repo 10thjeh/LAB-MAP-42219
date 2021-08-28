@@ -1,0 +1,9 @@
+a. Angka 1 dan Angka 2 kosong
+App akan crash dan meng-throw exception NumberFormatException null
+b. Angka 2 kosong
+App akan crash dan meng-throw exception NumberFormatException null
+c. 0 pada angka 2
+Value menjadi infinity
+
+Penyebabnya ialah pada saat parseDouble, jika tidak ada isi pada operand 1 dan 2 maka double akan melakukan parse terhadap null dan menimbulkan masalah
+Untuk mengatasinya saya menggunakan try-catch block pada method hitung sehingga saya dapat menghandle exception tersebut dan aplikasi tetap berjalan
