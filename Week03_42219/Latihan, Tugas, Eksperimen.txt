@@ -1,0 +1,5 @@
+1. Ketika app dimulai akan keluar list kata1 s/d kata20
+2. Ketika salah satu kata di klik maka akan ditambahkan string "pernah diklik"
+3. Ketika salah satu kata yang sudah diklik, diklik kembali maka akan ditambahkan string "pernah diklik" sehingga menjadi " kata n pernah diklik pernah diklik" dst
+4. Ketika FAB ditekan maka akan ditambahkan satu kata bertuliskan "kata n telah ditambahkan" dan scroll ke kata tersebut, apabila diklik akan terjadi hal 2
+5. Ketika tiap kata-kata di klik maka akan keluar notifikasi toast
