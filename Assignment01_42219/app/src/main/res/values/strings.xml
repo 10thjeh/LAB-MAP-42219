@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment01_42219</string>
+    <string name="kosong">0</string>
+    <string name="satu">1</string>
+    <string name="dua">2</string>
+    <string name="tiga">3</string>
+    <string name="empat">4</string>
+    <string name="lima">5</string>
+    <string name="enam">6</string>
+    <string name="tujuh">7</string>
+    <string name="delapan">8</string>
+    <string name="sembilan">9</string>
+    <string name="tambah">+</string>
+    <string name="kurang">-</string>
+    <string name="kali">x</string>
+    <string name="bagi">/</string>
+    <string name="ce">CE</string>
+    <string name="c">C</string>
+    <string name="back">Back</string>
+    <string name="posneg">+/-</string>
+    <string name="koma">,</string>
+    <string name="samadengan">=</string>
+    <string name="placeholder">0</string>
+
+</resources>
