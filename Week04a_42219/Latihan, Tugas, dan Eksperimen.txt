@@ -1,0 +1,1 @@
+Pada implicit intent, android akan mencari sendiri app yang cocok dengan tujuannya, sehingga jika kita hanya memasukan www.umn.ac.id bukan http://www.umn.ac.id maka intent tidak bekerja
