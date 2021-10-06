@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UTS_LAB</string>
+    <string name="judul">SFX Library and Previewer</string>
+    <string name="button_profile">Profile</string>
+    <string name="button_library">Library</string>
+    <string name="button_next">next</string>
+    <string name="login_hint">Must not be empty!</string>
+    <string name="link1"><a href="https://www.youtube.com/c/CodinginFlow">CodinginFlow</a></string>
+    <string name="link2"><a href="https://stackoverflow.com/">Stackoverflow</a></string>
+</resources>
