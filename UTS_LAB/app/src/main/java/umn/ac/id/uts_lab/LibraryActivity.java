@@ -81,7 +81,7 @@ public class LibraryActivity extends AppCompatActivity {
                 "But it's Jotaro",
                 "G",
                 "You stupid",
-                "Stop posting about among us",
+                "STOP POSTING ABOUT AMONG US! I'M TIRED OF SEEING IT! MY FRIENDS ON TIKTOK SEND ME MEMES, ON DISCORD IT'S F*CKING MEMES!",
                 "Cerealbox complaining about among us",
                 "DO NOT PLAY THIS"
         };

@@ -14,6 +14,7 @@ public class DetailActivity extends AppCompatActivity {
 
     TextView detail_name, detail_description;
     Button play_button;
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,11 +31,23 @@ public class DetailActivity extends AppCompatActivity {
         detail_name.setText(sound.getName());
         detail_description.setText(sound.getDescription());
         setTitle(sound.getName());
+        mediaPlayer = MediaPlayer.create(this, sound.getSound_id());
 
         play_button.setOnClickListener(v->{
-            MediaPlayer mediaPlayer = MediaPlayer.create(this, sound.getSound_id());
+
             mediaPlayer.start();
         });
+    }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mediaPlayer.stop();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mediaPlayer.stop();
     }
 }
